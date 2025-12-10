@@ -33,3 +33,6 @@ Metrics include:
 - Accuracy
 - Brier Score (probability quality)
 - Log Loss
+
+<img width="846" height="411" alt="image" src="https://github.com/user-attachments/assets/a3b42787-a692-4a29-aa77-588d33508995" />
+
