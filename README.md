@@ -17,14 +17,14 @@ Standardized inputs for models
 **Modeling**
 I trained two machine learning models:
 - Neural Network (MLPClassifier – scikit-learn)
- - Uses layers of connected “neurons”
- - Learns smooth nonlinear relationships
- - Good for modeling continuous and complex patterns
+  - Uses layers of connected “neurons”
+  - Learns smooth nonlinear relationships
+  - Good for modeling continuous and complex patterns
 
 - XGBoost
- - Builds many mini decision trees
- - Very strong for tabular (row-and-column) data
- - Good at detecting thresholds and interactions (e.g., “high leverage + low cash → higher risk”)
+  - Builds many mini decision trees
+  - Very strong for tabular (row-and-column) data
+  - Good at detecting thresholds and interactions (e.g., “high leverage + low cash → higher risk”)
    
 **Evaluation**
 I used 5-fold cross-validation at the firm level to avoid data leakage.  
